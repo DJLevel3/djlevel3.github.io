@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <div class="container">
-  <h1>Welcome to DJ_Level_3's homepage!</h1>
-  </div>
-</head>
-<body>
-  <div class="container">
-    <p>It's currently under construction, but the plan is to have links to my works and their source code here! For now, head on over to my <a href="https://www.youtube.com/@DJ_Level_3">YouTube channel</a> or my <a href="https://github.com/DJLevel3">GitHub page!</a></p>
-  </div>
-</body>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+
+{% seo %}
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="{{ '/' | relative_url }}">
+          <h1>DJ_Level_3's Homepage!</h1>
+        </a>
+        <h2>Welcome to the (future) hub for DJ_Level_3's oscilloscope music works, demoscene productions, and more!</h2>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p>This site is currently under construction, but the plan is to have links to my works and their source code here! For now, head on over to my <a href="https://www.youtube.com/@DJ_Level_3">YouTube channel</a> or my <a href="https://github.com/DJLevel3">GitHub page!</a></p>
+      </section>
+    </div>
+  </body>
 </html>
